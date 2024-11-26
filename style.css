@@ -1,0 +1,51 @@
+/* Reset some default styles for a clean slate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a simple background color and center the content */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Style the main container where the output will appear */
+  .main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Style the paragraph that will show the total bill */
+  p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;  /* Green color to signify success */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e8f5e9; /* Light green background */
+    border-radius: 5px;
+    border: 1px solid #4CAF50;
+  }
+  
+  /* Make the page responsive */
+  @media (max-width: 600px) {
+    p {
+      font-size: 1.2rem; /* Adjust font size on small screens */
+    }
+    .main {
+      padding: 15px;
+    }
+  }
+  
